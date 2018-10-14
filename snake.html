@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guessing</title>
+</head>
+<body >
+    <h1> Guess how many fingers do I have? </h1>
+    <input type= 'text' id = 'textEntered'>
+    <button id= 'button'> Guess </button>
+    
+
+    <script type= 'text/javascript'>
+    document.getElementById('button').onclick = function() {
+        var guessumber = document.getElementById('textEntered').value;
+        var randomnumber = Math.floor((Math.random()*5)+1);
+        if (guessnumber = randomnumber){
+            alert ('Correct') 
+        }else{
+            alert ('Incorrect ! Try Again !')
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    </script>
+
+</body>
+</html>
